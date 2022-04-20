@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign up form</title>
+  </head>
+  <body>
+    <div class="left-container">
+      <div class="logo-container">
+        <img src="./images/odin-lined.png" alt="" />
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="top-message">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <div class="form-container">
+        <h3>Let's do this!</h3>
+        <form action="post">
+          <div class="left">
+            <div class="input-container">
+              <label for="name">FIRST NAME</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="input-container">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input-container">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" />
+            </div>
+          </div>
+          <div class="right">
+            <div class="input-container">
+              <label for="lastname">LAST NAME</label>
+              <input type="text" name="lastname" id="lastname" />
+            </div>
+            <div class="input-container">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="text" name="phone" id="phone" />
+            </div>
+            <div class="input-container">
+              <label for="confirmpassword">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirmpassword"
+                id="confirmpassword"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="create-container">
+        <button class="btn">Create Account</button>
+        <p>Already have an Account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
